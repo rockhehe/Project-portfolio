@@ -8,7 +8,7 @@ function Projects() {
 
   return (
     <Container>
-  <div style={{ height: "400px", overflow: "auto" }}>
+  <div style={{ height: "500px", overflowY: "auto" }}>
       {location.pathname === "/projects" && (
         <h1>
           <strong>Projects</strong>
